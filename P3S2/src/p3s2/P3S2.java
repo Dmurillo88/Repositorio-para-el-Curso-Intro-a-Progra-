@@ -24,6 +24,14 @@ public class P3S2 {
         }  
         else
          JOptionPane.showMessageDialog(null,"Muy joven!");
+        
+        int nota =0;
+        nota= Integer.parseInt(JOptionPane.showInputDialog("Dime tu nota"));
+        if (nota >=70) {
+            JOptionPane.showMessageDialog(null,"Has aprobado");
+        }
+        else
+            JOptionPane.showMessageDialog(null,"Has reprobado");
         }
         
         
