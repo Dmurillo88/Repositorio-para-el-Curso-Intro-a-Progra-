@@ -14,7 +14,8 @@ public class Usuario {
   private String pwd;
   private String mail;
   
-
+  
+  
     public String getUser() {
         return user;
     }
